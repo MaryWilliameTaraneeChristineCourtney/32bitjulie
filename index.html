@@ -1,0 +1,144 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>32 Years of Falling for Julie</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.10/fullpage.css" rel="stylesheet" type="text/css" />
+    
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.10/fullpage.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#fullpage').fullpage({
+				//options here
+				autoScrolling:true,
+				scrollOverflow:false,
+				css3: true,
+				loopHorizontal: false,
+                scrollBar: false,
+			});
+        });
+    </script>
+    
+</head>
+
+<body>
+    <div id="fullpage">
+        <div class="section frontcard"></div>
+	    <div class="section heeree">
+            <div class="border"></div>
+            <div id="container001">
+                 <img id="img001" src="001b Midgalicis.png" onclick="main001(this, '001.mp3');" />
+            </div>
+            <script type="text/javascript">
+                  function main001(el,soundfile)
+                  {
+                  document.getElementById("img001").style.animation="bounce .5s";
+                  document.getElementById("img001").src="001a Midgalicis.png";
+                      if (el.mp3) {
+                      if(el.mp3.paused) el.mp3.play();
+                      else el.mp3.pause();
+                  } else {
+                      el.mp3 = new Audio(soundfile);
+                      el.mp3.play();
+                  }
+                  setTimeout(function() {
+                  document.getElementById("img001").src="001b Midgalicis.png";
+                  }, 14000);
+                  }
+            </script>
+
+            <div id="container002">
+                    <img id="img002" src="002b Stephzilla.png" onclick="main002(this, '002.mp3');" />
+            </div>
+            <script type="text/javascript">
+                        function main002(el,soundfile)
+                        {
+                        document.getElementById("img002").style.animation="bounce .5s";
+                        document.getElementById("img002").src="002a Stephzilla.png";
+                            if (el.mp3) {
+                            if(el.mp3.paused) el.mp3.play();
+                            else el.mp3.pause();
+                        } else {
+                            el.mp3 = new Audio(soundfile);
+                            el.mp3.play();
+                        }
+                        setTimeout(function() {
+                        document.getElementById("img002").src="002b Stephzilla.png";
+                        }, 56000);
+                        }
+            </script>
+
+            <div id="container003">
+                <img id="img003" src="003b Dude7836.png" onclick="main003(this, '003.mp3');" />
+            </div>
+            <script type="text/javascript">
+                        function main003(el,soundfile)
+                        {
+                        document.getElementById("img003").style.animation="bounce .5s";
+                        document.getElementById("img003").src="003a Dude7836.png";
+                            if (el.mp3) {
+                            if(el.mp3.paused) el.mp3.play();
+                            else el.mp3.pause();
+                        } else {
+                            el.mp3 = new Audio(soundfile);
+                            el.mp3.play();
+                        }
+                        setTimeout(function() {
+                        document.getElementById("img003").src="003b Dude7836.png";
+                        }, 5500);
+                        }
+            </script>
+
+            <div id="container004">
+                <img id="img004"  src="004b Luna_Star13.png" onclick="main004(this, '004.mp3');" />
+            </div>
+            <script type="text/javascript">
+                        function main004(el,soundfile)
+                        {
+                        document.getElementById("img004").style.animation="bounce .5s";
+                        document.getElementById("img004").src="004a Luna_Star13.png";
+                            if (el.mp3) {
+                            if(el.mp3.paused) el.mp3.play();
+                            else el.mp3.pause();
+                        } else {
+                            el.mp3 = new Audio(soundfile);
+                            el.mp3.play();
+                        }
+                        setTimeout(function() {
+                        document.getElementById("img004").src="004b Luna_Star13.png";
+                        }, 13000);
+                        }
+            </script>
+
+            <div id="container005">
+                <img id="img005" src="005b Josh_Tex.png" onclick="main005(this, '005.mp3');" />
+            </div>
+            <script type="text/javascript">
+                        function main005(el,soundfile)
+                        {
+                        document.getElementById("img005").style.animation="bounce .5s";
+                        document.getElementById("img005").src="005a Josh_Tex.png";
+                            if (el.mp3) {
+                            if(el.mp3.paused) el.mp3.play();
+                            else el.mp3.pause();
+                        } else {
+                            el.mp3 = new Audio(soundfile);
+                            el.mp3.play();
+                        }
+                        setTimeout(function() {
+                        document.getElementById("img005").src="005b Josh_Tex.png";
+                        }, 2000);
+                        }
+            </script>
+
+            <div id="container000" class="noclickee">
+                <img src="000 ONE_shot_GURL.png" />
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>

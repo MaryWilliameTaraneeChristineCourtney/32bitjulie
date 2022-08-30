@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+body {
+    position: absolute;
+    display: inline;
+}
+.section {    
+    position: absolute;
+    display: inline;
+    
+    width: 100%;
+    height: 100%;
+}
+.frontcard{
+    z-index: 200;
+    width: 100%;
+    background-image: url("FrontCard.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heeree{
+    width: 95%;
+    background-image: url("Background.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.border{
+    position: absolute;
+    display: inline;
+    z-index: 100;
+    width: 96.75%;
+    height: 95%;
+    border-width: 50px;
+    border-color: #ffffff;
+    border-style: solid;
+    pointer-events: none;
+}
+
+#container001 img {
+    height: 50%;
+    position: absolute;
+    display: inline;
+    z-index: 38;
+    bottom: -3.6%;
+    left: 50%;
+}
+#container002 img {
+    height: 50%;
+    position: absolute;
+    display: inline;
+    z-index: 3;
+    bottom: -4%;
+    left: 23%;
+}
+
+#container003 img {
+    height: 50%;
+    position: absolute;
+    display: inline;
+    z-index: 1;
+    bottom: 7.5%;
+    left: 26%;
+}
+
+#container004 img {
+    height: 50%;
+    position: absolute;
+    display: inline;
+    z-index: 2;
+    bottom: -3.6%;
+    left: 32%;
+}
+
+#container005 img {
+    height: 50%;
+    position: absolute;
+    display: inline;
+    z-index: 39;
+    bottom: -6.6%;
+    left: 55%;
+}
+
+
+@keyframes bounce {
+    0% {
+        -webkit-transform:translateY(0px);
+        -moz-transform:translateY(0px);
+        transform:translateY(0px);
+    }
+    40% {
+        -webkit-transform:translateY(-50px);
+        -moz-transform:translateY(-50px);
+        transform:translateY(-50px);
+    }
+    100% {
+        -webkit-transform:translateY(0px);
+        -moz-transform:translateY(0px);
+        transform:translateY(0px);
+    }
+}
+
+#container000 img {
+    position: absolute;
+    display: inline;
+    z-index: 40;
+    pointer-events: none;
+    left: 25%;
+    bottom: 0;
+    width: 40%;
+    align-items: center;
+    align-self: center;
+    align-self: center;
+}
