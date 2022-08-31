@@ -133,6 +133,27 @@
                         }, 2000);
                         }
             </script>
+            
+            <div id="container006">
+                <img id="img006" src="006b Doctor_Tokara.png" onclick="main006(this, '006.mp3');" />
+            </div>
+            <script type="text/javascript">
+                        function main006(el,soundfile)
+                        {
+                        document.getElementById("img006").style.animation="bounce .5s";
+                        document.getElementById("img006").src="006a Doctor_Tokara.png";
+                            if (el.mp3) {
+                            if(el.mp3.paused) el.mp3.play();
+                            else el.mp3.pause();
+                        } else {
+                            el.mp3 = new Audio(soundfile);
+                            el.mp3.play();
+                        }
+                        setTimeout(function() {
+                        document.getElementById("img006").src="006b Doctor_Tokara.png";
+                        }, 18000);
+                        }
+            </script>
 
             <div id="container000" class="noclickee">
                 <img src="000 ONE_shot_GURL.png" />
