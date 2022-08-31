@@ -50,16 +50,15 @@ body {
     height: 50%;
     position: absolute;
     display: inline;
-    z-index: 3;
+    z-index: 4;
     bottom: -4%;
     left: 23%;
 }
-
 #container003 img {
     height: 50%;
     position: absolute;
     display: inline;
-    z-index: 1;
+    z-index: 2;
     bottom: 7.5%;
     left: 26%;
 }
@@ -68,7 +67,7 @@ body {
     height: 50%;
     position: absolute;
     display: inline;
-    z-index: 2;
+    z-index: 3;
     bottom: -3.6%;
     left: 32%;
 }
@@ -83,6 +82,15 @@ body {
 }
 
 #container006 img {
+    height: 50%;
+    position: absolute;
+    display: inline;
+    z-index: 1;
+    bottom: 13%;
+    left: 33%;
+}
+
+#container007 img {
     height: 50%;
     position: absolute;
     display: inline;
