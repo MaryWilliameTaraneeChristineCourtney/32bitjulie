@@ -175,6 +175,27 @@
                         }, 26000);
                         }
             </script>
+            
+            <div id="container008">
+                <img id="img008" src="008b AusAlphaWolf.png" onclick="main008(this, '008.mp3');" />
+            </div>
+            <script type="text/javascript">
+                        function main008(el,soundfile)
+                        {
+                        document.getElementById("img008").style.animation="bounce .5s";
+                        document.getElementById("img008").src="008a AusAlphaWolf.png";
+                            if (el.mp3) {
+                            if(el.mp3.paused) el.mp3.play();
+                            else el.mp3.pause();
+                        } else {
+                            el.mp3 = new Audio(soundfile);
+                            el.mp3.play();
+                        }
+                        setTimeout(function() {
+                        document.getElementById("img008").src="008b AusAlphaWolf.png";
+                        }, 18000);
+                        }
+            </script>
 
             <div id="container000" class="noclickee">
                 <img src="000 ONE_shot_GURL.png" />

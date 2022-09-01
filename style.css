@@ -99,6 +99,15 @@ body {
     left: 60%;
 }
 
+#container008 img {
+    height: 50%;
+    position: absolute;
+    display: inline;
+    z-index: 36;
+    bottom: 13%;
+    left: 50%;
+}
+
 
 @keyframes bounce {
     0% {
